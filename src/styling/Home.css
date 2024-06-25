@@ -1,0 +1,23 @@
+.main-screen{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(34,34,34);
+}
+#playground-btn{
+    display:flex;
+    justify-content: center;
+    border: 5px solid orange;
+    padding: 10%;
+    background-color: rgb(34,34,34);
+    color: orange;
+    font-size:larger;
+    border-radius:15px;
+    width: 40vw;
+    margin-top:40%
+}
+#playground-btn:hover{
+    color:white;
+    border: 5px solid white;
+    cursor: pointer;
+}
