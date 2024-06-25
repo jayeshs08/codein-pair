@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { io } from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import '../styling/CodeEditor.css'
-const socket = io("http://localhost:4000");
+const socket = io("https://codein-pair-servercode.onrender.com");
 
 function CodeEditor() {
     const { roomId } = useParams();
